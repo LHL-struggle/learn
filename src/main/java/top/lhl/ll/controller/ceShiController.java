@@ -10,4 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class ceShiController {
+
+    @RequestMapping("ceshi")
+    public String ceshi(){
+        return "你好世界";
+    }
 }
