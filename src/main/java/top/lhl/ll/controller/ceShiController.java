@@ -14,6 +14,6 @@ public class ceShiController {
     @RequestMapping("ceshi")
     public String ceshi(){
         System.out.println("今天天气不错");
-        return "你好世界";
+        return "bbql";
     }
 }
